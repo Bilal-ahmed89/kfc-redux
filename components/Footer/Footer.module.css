@@ -1,0 +1,20 @@
+.footer{
+    background-color: #1C1816!important;
+}
+.footerTags{
+    margin: 0;
+    padding: 0;
+}
+.footerTags li {
+ list-style-type: none;
+ margin: 12px 0;
+}
+.footerTags li a{
+    text-decoration: none;
+    color: white;
+
+}
+.footerTags li a:hover{
+    text-decoration: underline;
+
+}

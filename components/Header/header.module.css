@@ -1,0 +1,33 @@
+.p1{
+    padding: 8px 0px;
+}
+.bgBlack{
+    background-color: black!important;
+}
+.orderBtn{
+    font-size: 12px!important;
+    font-weight: bold;
+    background-color: rgb(26 26 26);
+    color: white;
+    border: none;
+}
+.orderBtn:focus{
+    border: none;
+    background-color: #48413E;
+}
+.locationBtn{
+    color: white;
+    border: none;
+    background-color: rgb(26 26 26);
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 24px;
+    font-size: 16px;
+}
+.registerBtn{
+    color: white;
+    background-color: #E4002B;
+    padding: 6px 12px;
+    font-weight: bold;
+    border-radius:8px;
+}

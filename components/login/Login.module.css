@@ -1,0 +1,77 @@
+.loginInput{
+    background-color:  #48413E;
+    display: block;
+    margin: 24px 0;
+    border: 0;
+    border-radius: 6px 6px 0 0 ;
+    height: 55px;
+    width: 100%;
+    border-bottom: 1px solid white;
+    padding: 6px 0 6px 6px;
+}
+.loginInput::placeholder{
+   color: white;
+   padding: 6px 12px;
+  
+}
+.loginInput:focus-visible{
+   outline: none;
+   outline-offset: none;
+   color: white;
+   border-bottom: 1px solid #E4002B;
+
+  
+}
+.loginInput:focus-visible::placeholder{
+  color: #E4002B;
+  font-size: 11px;
+  
+  
+  
+}
+.loginBtn{
+    width: 100%;
+    color: white;
+    background-color:#E4002B;
+    border: 0;
+    padding: 12px 0;
+    border-radius: 6px;
+    margin: 8px 0;
+}
+.loginBtn:hover{
+   
+    background-color:#a1001e;
+   
+}
+.jss1{
+    text-align: center;
+    margin: 24px auto;
+    font-weight: bold;
+    position: relative;
+}
+.jss1:before{
+    content: "";
+    display: block;
+    width: 30%;
+    height: 2px;
+    background-color: #48413E;
+    position: absolute;
+    left: 0;
+    top: 49%;
+}
+.jss1:after{
+    content: "";
+    display: block;
+    width: 30%;
+    height: 2px;
+    background-color: #48413E;
+    position: absolute;
+    right: 0;
+    top: 49%;
+}
+.mediaLogo{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    width: 100%
+}

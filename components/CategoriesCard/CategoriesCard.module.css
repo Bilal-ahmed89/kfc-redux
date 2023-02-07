@@ -1,0 +1,12 @@
+.categoriesCard{
+    cursor: pointer;
+    border-radius: 6px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.categoriesTitle{
+    font-size: 7px;
+    top: 10%;
+    
+}
